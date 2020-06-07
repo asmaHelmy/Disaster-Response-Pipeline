@@ -22,7 +22,6 @@ A machine learning pipeline to categorize emergency messages based on the needs 
 
 - This dataset is impalanced, as most instances in the dataset is falls under "related" category and other categories like "child_alone" have less or no instances, that makes the model classify all messages as "related".
 - One way to solve this problem is to gather more data of these other categories, under-sampling "related" category or over-sampling those other categories.
-- 
 
 ## Repo's Files:
 ```
