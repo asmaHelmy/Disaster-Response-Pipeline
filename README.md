@@ -4,7 +4,7 @@ A machine learning pipeline to categorize emergency messages based on the needs 
 
 ## Table of contents
 * [Project phases](#project-phases)
-* [Repo's Files](#Repos-Files)
+* [Repo Files](#repo-files)
 * [Required Packages](#required-packages)
 * [Instructions](#instructions)
 * [Acknowledgements](#acknowledgements)
@@ -23,7 +23,7 @@ A machine learning pipeline to categorize emergency messages based on the needs 
 - This dataset is impalanced, as most instances in the dataset is falls under "related" category and other categories like "child_alone" have less or no instances, that makes the model classify all messages as "related".
 - One way to solve this problem is to gather more data of these other categories, under-sampling "related" category or over-sampling those other categories.
 
-## Repo's Files:
+## Repo Files:
 ```
 .
 ├── app
@@ -84,6 +84,11 @@ A machine learning pipeline to categorize emergency messages based on the needs 
 
 ## Screenshots:
 
+### Home - Data Visualization
 ![Data Visualization](./Screenshots/data_visualization.png)
-![Message Classification](./Screenshots/message_classification.png)
 
+### Results of the model trained on the imbalanced data
+![Overfitted Message Classification](./Screenshots/message_classification.png)
+
+### Results if the data is balanced
+![Right Message Classification](./Screenshots/message_classification2.png)
